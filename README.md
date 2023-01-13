@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# ajustinjames.com
+
+Welcome to the repo for my personal website. This is a simple one page site built in React with Tailwind CSS. It is deployed with [Cloudflare Pages](https://developers.cloudflare.com/pages/framework-guides/deploy-a-react-application/). It hooks into this repo for rapid deployment.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
