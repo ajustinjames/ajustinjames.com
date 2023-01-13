@@ -32,8 +32,10 @@ function App() {
 					</nav>
 					<div className="flex flex-wrap justify-center">
 						<img
-							src="/AJLogo.png"
+							src="/AJLogo.webp"
 							className="w-24 animate-fade-in-down"
+							height={24}
+							width={24}
 							alt="ajustinjames logo"
 						></img>
 					</div>
@@ -52,20 +54,22 @@ function App() {
 						</p>
 					</div>
 					<div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-						<a href="https://github.com/ajustinjames">
+						<a href="https://github.com/ajustinjames" aria-label="Github">
 							<AiFillGithub />
 						</a>
-						<a href="https://www.linkedin.com/in/ajustinjames/">
+						<a href="https://www.linkedin.com/in/ajustinjames/" aria-label="Linkedin">
 							<AiFillLinkedin />
 						</a>
-						<a href="https://aemail.com/WnBg">
+						<a href="https://aemail.com/WnBg" aria-label="Email">
 							<AiFillMail />
 						</a>
 					</div>
 					<div className="flex flex-wrap justify-center mt-10">
 						<img
-							src="/AaronJames.png"
+							src="/AaronJames.webp"
 							alt="Aaron James"
+							height={318}
+							width={318}
 							className="p-1 bg-white border rounded-full max-w-sm dark:bg-gray-900"
 						></img>
 					</div>
@@ -87,7 +91,7 @@ function App() {
 								height={100}
 								className="mx-auto text-8xl"
 							/>
-							<h4 className="py-4 text-teal-600">Languages</h4>
+							<h4 className="py-4 text-teal-700">Languages</h4>
 							<p className="text-gray-800 py-1">C#</p>
 							<p className="text-gray-800 py-1">JavaScript</p>
 							<p className="text-gray-800 py-1">HTML & CSS</p>
@@ -101,7 +105,7 @@ function App() {
 								height={100}
 								className="mx-auto text-8xl"
 							/>
-							<h4 className="py-4 text-teal-600">Frameworks</h4>
+							<h4 className="py-4 text-teal-700">Frameworks</h4>
 							<p className="text-gray-800 py-1">.Net Framework</p>
 							<p className="text-gray-800 py-1">Vue.js</p>
 							<p className="text-gray-800 py-1">React</p>
@@ -116,7 +120,7 @@ function App() {
 								height={100}
 								className="mx-auto text-8xl"
 							/>
-							<h4 className="py-4 text-teal-600">Tools</h4>
+							<h4 className="py-4 text-teal-700">Tools</h4>
 							<p className="text-gray-800 py-1">Visual Studio</p>
 							<p className="text-gray-800 py-1">Android Studio</p>
 							<p className="text-gray-800 py-1">Xcode</p>
